@@ -4,6 +4,7 @@
     height: 50px;
     background-image: url('img/star-empty.svg');
     margin: 10px;
+    appearance: none;
 }
 
 .main-container {
@@ -12,6 +13,6 @@
     justify-content: center;
 }
 
-.star:hover, .star:hover ~ *{
-    background-image: url('img/star.svg');
+.star:checked, .star:checked ~ *{
+    background-image: url('img/star.svg');  
 }
